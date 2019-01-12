@@ -25,9 +25,23 @@
 .bottom-header .input-group .form-control{
 	border-right: none;
 }
-.bottom-header .input-group .button{
+.form-control:focus {
+    color: #ced4da!important;
+    border-color: inherit!important;
+    box-shadow: none!important;
+}
+.bottom-header .input-group #button-addon2{
 	border-left: none;
 	border-color: #ced4da!important;
+	background-image: url('../img/icons/search.png');
+	background-size: 70% 70%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	width: 40px;
+}
+.bottom-header .input-group #button-addon2:hover{
+	background-color: initial;
+	background-image: url('../img/icons/search-active.png');
 }
 .user-controls a{
 	display: inline-block;

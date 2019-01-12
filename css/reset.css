@@ -44,12 +44,29 @@ label{
 	width: 30px;
 	height: 30px;
 	background-size: 100%;
+	position: relative;
 }
 .wishlist{
 	background-image: url('../img/icons/heart.png');
 }
 .wishlist:hover{
 	background-image: url('../img/icons/heart-active.png');
+}
+.wishlist:hover::after,
+.cart:hover::after{
+	background-color: #ff5912;
+}
+.wishlist::after,
+.cart::after{
+	content: '0';
+	padding: 0 5px 2px;
+	background-color: #929292;
+	color: #fff;
+	border-radius: 3px;
+	text-align: center;
+	top: -5px;
+	right: -7px;
+	position: absolute;
 }
 .cart{
 	background-image: url('../img/icons/cart.png');
