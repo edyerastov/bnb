@@ -4,8 +4,7 @@
 body{
     margin: 0;
     color: #34404b;
-    font: 12px/1 'Harmonia_regular', sans-serif;
-    background-color: #f4f6f8;
+    font: 14px/1 'Open Sans', sans-serif;
 }
 h1, h2, h3, h4, h5, h6, p{
     margin: 0;
@@ -38,4 +37,23 @@ button{
 }
 label{
     margin-bottom: 0;
+}
+
+/* ICONS */
+.wishlist, .cart{
+	width: 30px;
+	height: 30px;
+	background-size: 100%;
+}
+.wishlist{
+	background-image: url('../img/icons/heart.png');
+}
+.wishlist:hover{
+	background-image: url('../img/icons/heart-active.png');
+}
+.cart{
+	background-image: url('../img/icons/cart.png');
+}
+.cart:hover{
+	background-image: url('../img/icons/cart-active.png');
 }

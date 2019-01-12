@@ -1,0 +1,42 @@
+/* HEADER START */
+.top-header{
+	padding: 10px 0;
+	border-bottom: 1px solid #eee;
+}
+.top-header .contact li{
+	display: inline-block;
+}
+.top-header .contact li + li{
+	margin-left: 10px;
+}
+.top-header .contact li img{
+	height: 20px;
+}
+.bottom-header{
+	padding: 20px 0;
+	border-bottom: 1px solid #eee;
+}
+.bottom-header .logo{
+	height: 40px;
+}
+.bottom-header .input-group{
+	max-width: 800px;
+}
+.bottom-header .input-group .form-control{
+	border-right: none;
+}
+.bottom-header .input-group .button{
+	border-left: none;
+	border-color: #ced4da!important;
+}
+.user-controls a{
+	display: inline-block;
+}
+.user-controls a + a{
+	margin-left: 10px;
+}
+.user-controls a img{
+	height: 30px;
+}
+
+/* HEADER END */
