@@ -12,17 +12,17 @@
 .top-header .contact li img{
 	height: 20px;
 }
-.bottom-header{
+.middle-header{
 	padding: 20px 0;
 	border-bottom: 1px solid #eee;
 }
-.bottom-header .logo{
+.middle-header .logo{
 	height: 40px;
 }
-.bottom-header .input-group{
+.middle-header .input-group{
 	max-width: 800px;
 }
-.bottom-header .input-group .form-control{
+.middle-header .input-group .form-control{
 	border-right: none;
 }
 .form-control:focus {
@@ -30,7 +30,7 @@
     border-color: inherit!important;
     box-shadow: none!important;
 }
-.bottom-header .input-group #button-addon2{
+.middle-header .input-group #button-addon2{
 	border-left: none;
 	border-color: #ced4da!important;
 	background-image: url('../img/icons/search.png');
@@ -39,7 +39,7 @@
 	background-position: 50% 50%;
 	width: 40px;
 }
-.bottom-header .input-group #button-addon2:hover{
+.middle-header .input-group #button-addon2:hover{
 	background-color: initial;
 	background-image: url('../img/icons/search-active.png');
 }
@@ -52,5 +52,6 @@
 .user-controls a img{
 	height: 30px;
 }
+
 
 /* HEADER END */
