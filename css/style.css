@@ -55,11 +55,30 @@
 /* HEADER END */
 
 /* FOOTER START*/
-.footer1 {
+footer {
 	background-color: #34404b;
 	color: white;
 	height: 150px;
 }
+
+footer .footer-nav + .footer-nav {
+	margin-left: 35px;
+}
+
+footer .footer-nav span {
+	display: inline-block;
+	margin-bottom: 8px;
+}
+
+.footer-nav ul li {
+	list-style: square;
+	list-style-position: inside;
+}
+
+footer p {
+	text-align: justify;
+}
+
 /* FOTER END*/
 
 
