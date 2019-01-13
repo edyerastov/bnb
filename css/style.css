@@ -52,6 +52,36 @@
 .user-controls a img{
 	height: 30px;
 }
-
+.bottom-header{
+	padding: 10px 0;
+}
+#header-carousel img{
+	height: 500px;
+}
+.slider-control{
+	position: relative;
+}
+.slider-control .slider-left,
+.slider-control .slider-right{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 5;
+	background-color: rgba(8, 8, 8, .2);
+}
+.slider-control .slider-right{
+	right: 0;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.slider-control .slider-left{
+	left: 0;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.slider-control .slider-right:hover,
+.slider-control .slider-left:hover{
+	background-color: rgba(8, 8, 8, .3);
+}
 
 /* HEADER END */
