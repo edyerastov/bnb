@@ -53,6 +53,10 @@
 	height: 30px;
 }
 
+.bottom-header {
+	border-bottom: 1px solid #eee;
+}
+
 /* HEADER END */
 
 /* FOOTER START*/
@@ -60,6 +64,9 @@ footer {
 	background-color: #34404b;
 	color: white;
 	height: 150px;
+	clear: both;
+	padding: 10px;
+	/*min-height: calc(100vh - 150px);*/
 }
 
 footer .footer-nav + .footer-nav {
@@ -81,6 +88,20 @@ footer p {
 }
 
 /* FOTER END*/
+
+/*FOTER DOWN START*/
+body {
+    /*position: relative;*/
+    /*padding-bottom: 150px;*/
+    /*box-sizing: border-box;*/
+}
+footer {
+    /*position: inherit;*/
+    bottom: 0;
+    /*height: 150px;*/
+            }
+
+/*FOTER DOWN END*/
 
 .bottom-header{
 	padding: 10px 0;
@@ -112,6 +133,51 @@ footer p {
 .slider-control .slider-right:hover,
 .slider-control .slider-left:hover{
 	background-color: rgba(8, 8, 8, .3);
+}
+
+/*Заголовки на главной*/
+h2.with-stroke::after, .module-heading.with-stroke::after {
+    position: absolute;
+    content: "";
+    width: 90px;
+    left: 0;
+    right: 0;
+    /*bottom: 0;*/
+    margin: 0 auto;
+    border-bottom: 1px solid #ED7745;
+}
+a h4 {
+	font-size: 16px;
+}
+/*Конец заголовков на главной*/
+
+/*Div Каталог на главной*/
+.with-stroke {
+	padding: 40px;
+	padding-bottom: 20px;
+}
+
+.catalog {
+	display: inline;
+	margin: 50px;
+	padding: 40px;
+	padding-top: 20px;
+}
+
+.text-center {
+	text-align: center !important;
+}
+
+.row {
+	margin: 0 auto;
+	max-width: 50rem;
+	width: 100%;
+}
+/*Div Каталог на главной END*/
+
+.company-information {
+	padding: 40px;
+	padding-top: 20px;
 }
 
 
