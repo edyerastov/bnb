@@ -19,158 +19,238 @@
 
 </head>
 <body>
-	<header>
-		<div class="top-header">
-			<div class="container d-flex justify-content-between align-items-center">
-				<ul class="nav">
-					<li class="nav-item">
-						<a href="" class="nav-link">Почему выбирают нас</a>
+	<div class="d-flex flex-column h-100 justify-content-between">
+		<header>
+			<div class="top-header">
+				<div class="container d-flex justify-content-between align-items-center">
+					<ul class="nav">
+						<li class="nav-item">
+							<a href="" class="nav-link">Почему выбирают нас</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="nav-link">Вопрос-ответ</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="nav-link">Советы экспертов</a>
+						</li>
+					</ul>
+					<ul class="contact">
+						<li>
+							<img class="mr-1" src="https://img.icons8.com/wired/64/000000/phone.png">
+							<a href="tel:+380121231212">+380121231212</a>
+						</li>
+						<li>
+							<img class="mr-1" src="https://img.icons8.com/wired/64/000000/secured-letter.png">
+							<a href="mailto:bnb@gmail.com">bnb@gmail.com</a>
+						</li>
+					</ul>
+					
+				</div>
+			</div>
+			<div class="middle-header">
+				<div class="container d-flex justify-content-between align-items-center">
+					<a href=""><img class="logo" src="img/icons/logo.svg" alt=""></a>
+					<div class="input-group">
+					  <input type="text" class="form-control" placeholder="Поиск" aria-label="Recipient's username" aria-describedby="button-addon2">
+					  <div class="input-group-append">
+					    <button class="btn btn-outline-secondary" type="button" id="button-addon2"></button>
+					  </div>
+					</div>
+					<div class="user-controls">
+						<a href="" class="control wishlist"></a>
+						<a href="" class="control cart"></a>
+					</div>
+				</div>
+			</div>
+			<div class="bottom-header">
+				<div class="container d-flex justify-content-center">
+					<ul class="nav">
+						<li class="nav-item">
+							<a href="" class="nav-link">Каталог продукции</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="nav-link">Наши работы</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="nav-link">Материалы</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="nav-link">Как оплатить</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="nav-link">Как заказать</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="nav-link">Доставка</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="nav-link">О компании</a>
+						</li>
+						<li class="nav-item">
+							<a href="" class="nav-link">Контакты</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="slider-control">
+				<div class="owl-carousel" id="header-carousel">
+					<img src="img/sofa_1.jpg" alt="">
+					<img src="img/sofa_2.jpg" alt="">
+					<img src="img/sofa_3.jpg" alt="">
+				</div>
+				<a class="slider-left" href="javascript:;"><img src="https://img.icons8.com/wired/64/000000/chevron-left.png"></a> 
+				<a class="slider-right" href="javascript:;"><img src="https://img.icons8.com/wired/64/000000/chevron-right.png"></a>
+			</div>
+		</header>
+
+		<main class="container">
+			<section class="product-catalog text-center">
+				<span class="title">Каталог</span>
+				<ul class="product-catalog-list">
+					<li>
+						<a href="#" class="d-flex flex-column align-items-center">
+							<img width="80px" src="img/icons/couch.png">
+							<span>Диваны</span>
+						</a>
 					</li>
-					<li class="nav-item">
-						<a href="" class="nav-link">Вопрос-ответ</a>
+					<li>
+						<a href="#" class="d-flex flex-column align-items-center">
+							<img width="80px" src="img/icons/cornersofa.png">
+							<span>Угловые диваны</span>
+						</a>
 					</li>
-					<li class="nav-item">
-						<a href="" class="nav-link">Советы экспертов</a>
+					<li>
+						<a href="#" class="d-flex flex-column align-items-center">
+							<img width="80px" src="img/icons/couchoffice.png">
+							<span>Офисные диваны</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="d-flex flex-column align-items-center">
+							<img width="80px" src="img/icons/poof.png">
+							<span>Пуфы</span>
+						</a>
 					</li>
 				</ul>
-				<ul class="contact">
-					<li>
-						<img class="mr-1" src="https://img.icons8.com/wired/64/000000/phone.png">
-						<a href="tel:+380121231212">+380121231212</a>
-					</li>
-					<li>
-						<img class="mr-1" src="https://img.icons8.com/wired/64/000000/secured-letter.png">
+			</section>
+			<section class="our-products text-center">
+				<h2 class="title">Наша продукция</h2>
+				<div class="slider-control mt-3">
+	                <div class="product-carousel owl-carousel">
+
+	                    <div class="card">
+	                    	<a href="" class="card-img-top">
+	                    		<img src="./img/sofa_1.jpg" alt="">
+	                    	</a>
+	                        <div class="card-body d-flex flex-column">
+	                        	<a class="product-title">Диван 1</a>
+	                        	<p class="text-secondary mt-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error necessitatibus veniam quia nulla eum reiciendis aliquid corporis, et qui vero quibusdam. Deleniti ducimus in dolores. Qui quisquam doloribus, ullam minus!</p>
+	                        	<span class="price">от 3000 грн</span>
+	                        </div>
+	                    </div>
+	                    <div class="card">
+	                    	<a href="" class="card-img-top">
+	                    		<img src="./img/sofa_2.jpg" alt="">
+	                    	</a>
+	                        <div class="card-body d-flex flex-column">
+	                        	<a class="product-title">Диван 1</a>
+	                        	<p class="text-secondary mt-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error necessitatibus veniam quia nulla eum reiciendis aliquid corporis, et qui vero quibusdam. Deleniti ducimus in dolores. Qui quisquam doloribus, ullam minus!</p>
+	                        	<span class="price">от 3000 грн</span>
+	                        </div>
+	                    </div>
+	                    <div class="card">
+	                    	<a href="" class="card-img-top">
+	                    		<img src="./img/sofa_3.jpg" alt="">
+	                    	</a>
+	                        <div class="card-body d-flex flex-column">
+	                        	<a class="product-title">Диван 1</a>
+	                        	<p class="text-secondary mt-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error necessitatibus veniam quia nulla eum reiciendis aliquid corporis, et qui vero quibusdam. Deleniti ducimus in dolores. Qui quisquam doloribus, ullam minus!</p>
+	                        	<span class="price">от 3000 грн</span>
+	                        </div>
+	                    </div>
+	                    <div class="card">
+	                    	<a href="" class="card-img-top">
+	                    		<img src="./img/sofa_1.jpg" alt="">
+	                    	</a>
+	                        <div class="card-body d-flex flex-column">
+	                        	<a class="product-title">Диван 1</a>
+	                        	<p class="text-secondary mt-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error necessitatibus veniam quia nulla eum reiciendis aliquid corporis, et qui vero quibusdam. Deleniti ducimus in dolores. Qui quisquam doloribus, ullam minus!</p>
+	                        	<span class="price">от 3000 грн</span>
+	                        </div>
+	                    </div>
+	                    <div class="card">
+	                    	<a href="" class="card-img-top">
+	                    		<img src="./img/sofa_2.jpg" alt="">
+	                    	</a>
+	                        <div class="card-body d-flex flex-column">
+	                        	<a class="product-title">Диван 1</a>
+	                        	<p class="text-secondary mt-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error necessitatibus veniam quia nulla eum reiciendis aliquid corporis, et qui vero quibusdam. Deleniti ducimus in dolores. Qui quisquam doloribus, ullam minus!</p>
+	                        	<span class="price">от 3000 грн</span>
+	                        </div>
+	                    </div>
+	                </div>
+	                <a class="slider-left" href="javascript:;"><img src="https://img.icons8.com/wired/64/000000/chevron-left.png"></a> 
+					<a class="slider-right" href="javascript:;"><img src="https://img.icons8.com/wired/64/000000/chevron-right.png"></a>
+	            </div>
+			</section>
+			
+			<section class="company-information text-center">
+				<h2 class="title">О компании</h2>
+				<p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quasi commodi amet, praesentium quaerat quis nam reiciendis sed, fuga possimus eum, repellat dolorum tenetur. Quos minus inventore eum ullam dicta!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia est possimus eius facilis tempora repudiandae obcaecati explicabo delectus, incidunt vitae sed illo, sunt illum at. Vero, optio sapiente dolore molestiae!</p><br>
+				<p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quasi commodi amet, praesentium quaerat quis nam reiciendis sed, fuga possimus eum, repellat dolorum tenetur. Quos minus inventore eum ullam dicta!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia est possimus eius facilis tempora repudiandae obcaecati explicabo delectus, incidunt vitae sed illo, sunt illum at. Vero, optio sapiente dolore molestiae!</p>
+				<br>
+				<p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quasi commodi amet, praesentium quaerat quis nam reiciendis sed, fuga possimus eum, repellat dolorum tenetur. Quos minus inventore eum ullam dicta!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia est possimus eius facilis tempora repudiandae obcaecati explicabo delectus, incidunt vitae sed illo, sunt illum at. Vero, optio sapiente dolore molestiae! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nulla perspiciatis esse nemo quaerat facere molestias quibusdam explicabo sunt? Maiores animi, ipsa accusamus quod! Beatae dolorem vitae, asperiores fuga porro.</p>
+				<br>
+				<p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quasi commodi amet, praesentium quaerat quis nam reiciendis sed, fuga possimus eum, repellat dolorum tenetur. Quos minus inventore eum ullam dicta!</p>
+				<br>
+				<p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quasi commodi amet, praesentium quaerat quis nam reiciendis sed, fuga possimus eum, repellat dolorum tenetur. Quos minus inventore eum ullam dicta!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia est possimus eius facilis tempora repudiandae obcaecati explicabo delectus, incidunt vitae sed illo, sunt illum at. Vero, optio sapiente dolore molestiae!</p>
+			</section>
+		</main>
+
+		<footer class="mt-auto">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3">
+						<span class="nav-title">Наша продукция:</span>
+						<ul class="footer-nav">
+							<li><a href="#">Диваны</a></li>
+							<li><a href="#">Офисные диваны</a></li>
+							<li><a href="#">Угловые диваны</a></li>
+							<li><a href="#">Пуфы</a></li>
+						</ul>
+					</div>
+
+					<div class="col-lg-3">
+						<span class="nav-title">Информация:</span>
+						<ul class="footer-nav">
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Контакты</a></li>
+							<li><a href="#">Как заказать</a></li>
+							<li><a href="#">Как купить</a></li>
+							<li><a href="#">Доставка</a></li>
+						</ul>
+					</div>
+
+					<div class="col-lg-6">
+						<span class="nav-title">О компании:</span>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem consectetur ipsam quam voluptates dolorum et, libero at minus, distinctio fugit, quod facere tempore ea. Neque molestiae provident ex! Quis, natus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae delectus dolor alias voluptatum nisi hic ab, maiores inventore. Quis amet architecto optio, repudiandae voluptas provident quasi vitae, error a. Illum.</p>
+					</div>
+				</div>
+
+				<div class="d-flex justify-content-between mt-3">
+					<span>BNB @ Copyright 2019</span>
+					<span>Cделано компанией <a href=""></a>FurySoftware</span>
+					<div class="footer-contact">
+						<a href="tel:+380121231212" class="mr-3">+380121231212</a>
 						<a href="mailto:bnb@gmail.com">bnb@gmail.com</a>
-					</li>
-				</ul>
+					</div>
+				</div>
+
+			</div>
 				
-			</div>
-		</div>
-		<div class="middle-header">
-			<div class="container d-flex justify-content-between align-items-center">
-				<a href=""><img class="logo" src="img/icons/logo.svg" alt=""></a>
-				<div class="input-group">
-				  <input type="text" class="form-control" placeholder="Поиск" aria-label="Recipient's username" aria-describedby="button-addon2">
-				  <div class="input-group-append">
-				    <button class="btn btn-outline-secondary" type="button" id="button-addon2"></button>
-				  </div>
-				</div>
-				<div class="user-controls">
-					<a href="" class="control wishlist"></a>
-					<a href="" class="control cart"></a>
-				</div>
-			</div>
-		</div>
-		<div class="bottom-header">
-			<div class="container d-flex justify-content-center">
-				<ul class="nav ">
-					<li class="nav-item">
-						<a href="" class="nav-link">Каталог продукции</a>
-					</li>
-					<li class="nav-item">
-						<a href="" class="nav-link">Наши работы</a>
-					</li>
-					<li class="nav-item">
-						<a href="" class="nav-link">Материалы</a>
-					</li>
-					<li class="nav-item">
-						<a href="" class="nav-link">Как оплатить</a>
-					</li>
-					<li class="nav-item">
-						<a href="" class="nav-link">Как заказать</a>
-					</li>
-					<li class="nav-item">
-						<a href="" class="nav-link">Доставка</a>
-					</li>
-					<li class="nav-item">
-						<a href="" class="nav-link">О компании</a>
-					</li>
-					<li class="nav-item">
-						<a href="" class="nav-link">Контакты</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<div class="slider-control">
-			<div class="owl-carousel" id="header-carousel">
-				<img src="img/sofa_1.jpg" alt="">
-				<img src="img/sofa_2.jpg" alt="">
-				<img src="img/sofa_3.jpg" alt="">
-			</div>
-			<a class="slider-left" href="javascript:;"><img src="https://img.icons8.com/wired/64/000000/chevron-left.png"></a> 
-			<a class="slider-right" href="javascript:;"><img src="https://img.icons8.com/wired/64/000000/chevron-right.png"></a>
-		</div>
-		
-	</header>
-
-	<main>
-		<h2 class="with-stroke"><center>Каталог</center></h2>
-		<div class="catalog d-flex conntainer text-center row">
-		<!--<center>-->
-			<a href"#" class="footer-nav col-lg-3">
-				<img width="80px" src="img/icons/couch.png">
-				<h4>Диваны</h4>
-			</a>
-			<a href"#" class="footer-nav col-lg-3">
-				<img width="80px" src="img/icons/cornersofa.png">
-				<h4>Угловые диваны</h4>
-			</a>
-			<a href"#" class="footer-nav col-lg-3">
-				<img width="80px" src="img/icons/couchoffice.png">
-				<h4>Офисные диваны</h4>
-			</a>
-			<a href"#" class="footer-nav col-lg-3">
-				<img width="80px" src="img/icons/poof.png">
-				<h4>Пуфы</h4>
-			</a>
-		<!--/center>-->
-		</div>
-		<h2 class="with-stroke"><center>Наша продукция</center></h2>
-		<center>(типо слайдер)</center><br><br>
-		<h2 class="with-stroke"><center>О компании</center></h2>
-		<div class="container company-information">
-			<p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quasi commodi amet, praesentium quaerat quis nam reiciendis sed, fuga possimus eum, repellat dolorum tenetur. Quos minus inventore eum ullam dicta!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia est possimus eius facilis tempora repudiandae obcaecati explicabo delectus, incidunt vitae sed illo, sunt illum at. Vero, optio sapiente dolore molestiae!</p><br>
-			<p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quasi commodi amet, praesentium quaerat quis nam reiciendis sed, fuga possimus eum, repellat dolorum tenetur. Quos minus inventore eum ullam dicta!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia est possimus eius facilis tempora repudiandae obcaecati explicabo delectus, incidunt vitae sed illo, sunt illum at. Vero, optio sapiente dolore molestiae!</p>
-			<br>
-			<p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quasi commodi amet, praesentium quaerat quis nam reiciendis sed, fuga possimus eum, repellat dolorum tenetur. Quos minus inventore eum ullam dicta!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia est possimus eius facilis tempora repudiandae obcaecati explicabo delectus, incidunt vitae sed illo, sunt illum at. Vero, optio sapiente dolore molestiae! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nulla perspiciatis esse nemo quaerat facere molestias quibusdam explicabo sunt? Maiores animi, ipsa accusamus quod! Beatae dolorem vitae, asperiores fuga porro.</p>
-			<br>
-			<p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quasi commodi amet, praesentium quaerat quis nam reiciendis sed, fuga possimus eum, repellat dolorum tenetur. Quos minus inventore eum ullam dicta!</p>
-			<br>
-			<p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quasi commodi amet, praesentium quaerat quis nam reiciendis sed, fuga possimus eum, repellat dolorum tenetur. Quos minus inventore eum ullam dicta!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia est possimus eius facilis tempora repudiandae obcaecati explicabo delectus, incidunt vitae sed illo, sunt illum at. Vero, optio sapiente dolore molestiae!</p>
-		</div>
-	</main>
-
-	<footer>
-		<div class="d-flex container">
-			<div class="footer-nav col-lg-2">
-				<span><b>Наша продукция:</b></span></br>
-				<ul>
-					<li><a href="#">Диваны</a></li>
-					<li><a href="#">Офисные диваны</a></li>
-					<li><a href="#">Угловые диваны</a></li>
-					<li><a href="#">Пуфы</a></li>
-				</ul>
-			</div>
-
-			<div class="footer-nav col-lg-2">
-				<span><b>Информация:</b></span></br>
-				<ul>
-					<li><a href="#">О компании</a></li>
-					<li><a href="#">Контакты</a></li>
-					<li><a href="#">Как заказать</a></li>
-					<li><a href="#">Как купить</a></li>
-					<li><a href="#">Доставка</a></li>
-				</ul>
-			</div>
-
-			<div class="footer-nav col-lg-8">
-				<span><b>О компании:</b></span>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem consectetur ipsam quam voluptates dolorum et, libero at minus, distinctio fugit, quod facere tempore ea. Neque molestiae provident ex! Quis, natus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae delectus dolor alias voluptatum nisi hic ab, maiores inventore. Quis amet architecto optio, repudiandae voluptas provident quasi vitae, error a. Illum.</p>
-			</div>
-		</div>
-		<br>
-			<center>BNB @ Copyright 2019</center>
-	</footer>
+		</footer>
+	</div>
+	
 	
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	<script src="js/bootstrap.min.js" ></script>
